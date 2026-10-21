@@ -1,0 +1,10 @@
+---
+description: "Release checklist. Use when preparing a release, version bump, or deploy."
+alwaysApply: false
+---
+
+# Release checklist
+1. Run the full test suite and the production build
+2. Update CHANGELOG.md with user-facing changes
+3. Bump the version number in one commit
+4. Ask me before pushing tags or deploying

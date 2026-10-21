@@ -1,0 +1,10 @@
+---
+description: "React component conventions"
+globs: src/components/**/*.tsx
+alwaysApply: false
+---
+
+# Component rules
+- Use named exports, not default exports
+- Keep components under 200 lines; split out subcomponents next to the file
+- Props interface at the top of the file
